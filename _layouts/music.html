@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<style>
+body {background-color: #FFFF00;}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+  <h1><b>Music</b></h1>
+</div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" >
+
+      {% for music_data in site.data.musicpost %}
+          <div class="w3-third">
+          <img src="{{ music_data.cover_link }}" alt="{{ music_data.name }}" style="width:50%">
+          <h4>{{ music_data.name }}</h4>
+          <p>{{ music_data.comment }}</p>
+          <iframe style="float:center" frameborder="no" border="1" marginwidth="0" marginheight="0" width=298 height=52 src="{{ music_data.play_link }}"></iframe><br /><br /><br />
+        </div>
+      {% endfor %}
+
+  </div>
+  </div>
