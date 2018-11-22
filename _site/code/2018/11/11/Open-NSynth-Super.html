@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Open nsynth super</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {font-family: "Lato", sans-serif}
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    
+    <a href="/blog.html" class="w3-bar-item w3-button w3-padding-large">BLOG</a>
+    
+    <a href="/music.html" class="w3-bar-item w3-button w3-padding-large">MUSIC</a>
+    
+    <a href="/photo.html" class="w3-bar-item w3-button w3-padding-large">PHOTO</a>
+    
+    <a href="/code.html" class="w3-bar-item w3-button w3-padding-large">CODE</a>
+    
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  
+  <a href="/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  
+  <a href="/blog.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BLOG</a>
+  
+  <a href="/music.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MUSIC</a>
+  
+  <a href="/photo.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PHOTO</a>
+  
+  <a href="/code.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CODE</a>
+  
+</div>
+
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+</script>
+
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div class="w3-container w3-content w3-padding-64" style="max-width:860px">
+    <h1>Open nsynth super</h1>
+    <p>
+      11 Nov 2018
+      
+      
+        - <a href="/authors/esunlon.html">esunlon</a>
+      
+    </p>
+
+    <h1 id="open-nsynth-super">Open NSynth Super</h1>
+
+<p>Open NSynth Super is an experimental physical interface for NSynth, a machine learning algorithm developed by <a href="https://magenta.tensorflow.org/">Google Brain’s Magenta team</a> to generate new, unique sounds that exist between different sounds. Open NSynth Super allows you to create and explore new sounds that it generates through a simple to use hardware interface that integrates easily into any musician’s production rig. To find out more, visit the <a href="https://nsynthsuper.withgoogle.com">NSynth Super website</a>.
+<!--more-->
+This repository contains all the instructions and files required to build an Open NSynth Super instrument from scratch, and you can use them to make your own version. Anyone can fork the code and schematics to remix the instrument in any way they wish.</p>
+
+<h3 id="about-this-document">About this document</h3>
+
+<p>This document has three chapters – an overview of the instrument itself, a ‘make your own’ guide, and an overview of the audio creation process.</p>
+
+<ul>
+  <li>
+    <p><a href="#how-it-works">The ‘how it works’ overview</a> summarises the technical and user interface features of the Open NSynth Super instrument.</p>
+  </li>
+  <li>
+    <p><a href="#guide-how-to-make-open-nsynth-super">The ‘make your own’ guide</a> takes you through the steps required to build an Open NSynth Super unit and load it with an example Linux image containing pre-computed sample audio, helping you to get started with the instrument straight away.</p>
+  </li>
+  <li>
+    <p><a href="#audio-creation-overview">The audio creation overview</a> gives a high-level summary of the audio creation pipeline, which enables you to process audio files (on a separate computer) and load the instrument with your own input sounds.</p>
+  </li>
+</ul>
+
+<p>This repository also includes individual chapters on every aspect of Open NSynth Super, so you can build a unit from scratch, or hack and customise any part of it:</p>
+
+<ul>
+  <li><a href="/app">Application software</a></li>
+  <li><a href="/audio">Audio creation pipeline</a></li>
+  <li><a href="/case">Case &amp; dials</a></li>
+  <li><a href="/firmware">Firmware &amp; microcontroller</a></li>
+  <li><a href="/linux">OS and provisioning</a></li>
+  <li><a href="/pcb_hardware">PCB and hardware</a></li>
+</ul>
+
+<h1 id="how-it-works">How it works</h1>
+
+<p><img src="images/ons_main_instruments.jpg" alt="Open NSynth Super with audio equipment" /></p>
+
+<p>Open NSynth Super is super simple to integrate into any production music rig. Like many other synthesizer modules, it receives MIDI input via a 5-pin DIN connector, and outputs audio through a 3.5mm jack cable. This simple interface allows it to work with almost any MIDI source, like keyboards, DAWs, or hardware sequencers.</p>
+
+<h3 id="user-interface">User interface</h3>
+
+<p><img src="images/ons_main_interface.jpg" alt="Open NSynth Super user interface" /></p>
+
+<p>The physical interface of Open NSynth Super is constructed around a square touch interface. Using dials in the corners of the touch surface, musicians can select four source sounds and use the touch interface to explore the sounds that the NSynth algorithm has generated between them. In addition, the instrument also has controls for tuning the new sounds via the fine controls.</p>
+
+<p><strong>(A) Instrument selectors</strong> - These rotary dials are used to select the instruments that are assigned to the corners of the interface.</p>
+
+<p><strong>(B) OLED display</strong> - A high-contrast display shows you the state of the instrument and additional information about the controls that you are interacting with.</p>
+
+<p><strong>(C) Fine controls</strong> - These six dials are used to further customize the audio output by the device:</p>
+
+<ul>
+  <li>‘Position’ sets the initial position of the wave, allowing you to cut out the attack of a waveform, or to start from the tail of a newly created sound.</li>
+  <li>‘Attack’ controls the time taken for initial run-up of level from nil to peak.</li>
+  <li>‘Decay’ controls the time taken for the subsequent run down from the attack level to the designated sustain level.</li>
+  <li>‘Sustain’ sets the level during the main sequence of the sound’s duration, until the key is released.</li>
+  <li>‘Release’ controls the time taken for the level to decay from the sustain level to zero after the key is released.</li>
+  <li>‘Volume’ adjusts the overall output volume of the device.</li>
+</ul>
+
+<p><strong>(D) Touch interface</strong> - This is a capacitive sensor, like the mouse pad on a laptop, which is used to explore the world of new sounds that NSynth has generated between your chosen source audio.</p>
+
+<h3 id="technical-overview">Technical overview</h3>
+
+<p><img src="images/ons_main_overview.jpg" alt="Open NSynth Super system diagram" /></p>
+
+<p>There are several distinct components to each Open NSynth Super unit: a custom PCB with a dedicated microcontroller and firmware for handling user inputs; a Raspberry Pi 3 computer running Raspbian Linux and an openFrameworks-based audio synthesiser application; and a series of scripts for preparing audio on a GPU-equipped Linux server using the NSynth algorithm. In addition to the software, firmware, and hardware, there are files for creating a casing and dials for the unit.</p>
+
+<h5 id="hardware--firmware">Hardware &amp; firmware</h5>
+
+<p>The electronics are built around a Raspberry Pi 3 running Raspbian Linux (note that the new Raspberry Pi 3B+ is not yet tested with these instructions), and a custom PCB used to read the inputs and control the outputs. A microcontroller on the PCB manages the physical inputs: there are four rotary encoders on the four corners for instrument selection; six potentiometers below the interface to control the position, envelope, and volume settings; and a capacitive grid on the surface of the PCB (exposed through the top layer of the case) used to select the mixing point of the four instruments.</p>
+
+<p>More information on the electronics, hardware, and firmware can be found <a href="/pcb_hardware">here</a>, and <a href="/firmware">here</a>. A complete bill of materials for the case and electronics is available in this Excel <a href="https://storage.googleapis.com/open-nsynth-super/onss_bom.xlsx">spreadsheet</a>.</p>
+
+<h5 id="software">Software</h5>
+<p>Open NSynth Super runs a multisampler audio application built on <a href="http://openframeworks.cc">openFrameworks</a> to process incoming MIDI note data and generate sound output. More information about this application can be found in the <a href="/app">software readme file</a>.</p>
+
+<h5 id="case">Case</h5>
+<p>We designed a case for the electronics that can be easily manufactured with a laser cutter, and held together with standard screws and fittings. This design is easily customisable using different materials, colors, dials, and shapes. Read more about this in the <a href="/case">case readme file</a>.</p>
+
+<h5 id="audio">Audio</h5>
+<p>Audio for the Open NSynth Super instrument is produced by the NSynth algorithm. Because generating audio requires a great deal of processing power, this repository includes a set of scripts that you can run on a server which will take any audio recordings of your choice and convert them into a format compatible with the instrument. For more information, see the <a href="/audio">audio readme file</a> or the <a href="#audio-creation-overview">audio creation overview</a> in this document.</p>
+
+<h1 id="guide-how-to-make-open-nsynth-super">Guide: How to make Open NSynth Super</h1>
+
+<p><img src="images/ons_main_parts.jpg" alt="Open NSynth Super parts" /></p>
+
+<p>This guide gives you an overview of how to create casing and electronics for Open NSynth Super, and load the device with a premade Linux image which is already set up with application software, hardware support, and example sounds.</p>
+
+<p>The example image file includes the following software features:</p>
+<ul>
+  <li>Raspbian Linux Lite</li>
+  <li>Full configuration to support the Open NSynth Super mainboard</li>
+  <li>Open NSynth Super software application pre-loaded and configured</li>
+  <li>Sample audio data</li>
+  <li>A read-only filesystem for robustness</li>
+</ul>
+
+<p>You will need the following off-the-shelf items to complete this guide:</p>
+
+<ul>
+  <li>Micro SD card (16GB or 64GB)</li>
+  <li>Raspberry Pi 3 <strong><em>Note that the new 3B+ Raspberry Pi is not yet tested with these instructions</em></strong></li>
+  <li>5V 2A micro-USB power supply</li>
+</ul>
+
+<p>You will also need the following Open NSynth Super-specific items, which are detailed in the steps below:</p>
+
+<ul>
+  <li>Open NSynth Super mainboard</li>
+  <li>Laser cut Open NSynth Super case</li>
+  <li>3D printed dials (optional)</li>
+</ul>
+
+<h3 id="1-laser-cut-the-shell">1. Laser cut the shell</h3>
+
+<p>This repository contains a reference design for a laser-cut shell for Open NSynth Super. As well as the case design, there are two sizes of 3D-printed dials which can optionally be added to the build. Parts for the case can be cut manually, or obtained easily from a laser-cutting service by supplying these files. More detailed information and specifications for the case can be found in the <a href="/case">case readme</a> file.</p>
+
+<p>You should make or order a case following the above guide before moving forward with the build. Don’t assemble the case yet, as you will need access to the ports on the Raspberry Pi.</p>
+
+<h3 id="2-manufacture-and-assemble-the-pcb">2. Manufacture and assemble the PCB</h3>
+
+<p>Open NSynth Super is built around a custom PCB with inputs for the hardware controls, audio and data I/O ports, and an OLED display for the UI. The PCB can be ordered fully assembled (this is most cost effective when ordering several boards), or be assembled by hand in a few hours. Further detail on the manufacture and assembly of the board can be found in the <a href="/pcb_hardware">PCB readme</a> file.</p>
+
+<p><strong>You will need to obtain or build your PCB before proceeding further with this guide.</strong></p>
+
+<p>In order to test the board, you will need to have a working Open NSynth Super software installation, which you will prepare at the next step. Before proceeding, connect the Raspberry Pi GPIO pins to the Open NSynth Super mainboard.</p>
+
+<h3 id="3-prepare-the-sd-card">3. Prepare the SD card</h3>
+
+<p>There are two preconfigured OS images available, both loaded with sample audio and fully configured for use with NSynth Super. Depending on the size of your SD card, you can choose either the <a href="https://storage.googleapis.com/open-nsynth-super/images/onss_1.1_full.img">64GB image</a> or <a href="https://storage.googleapis.com/open-nsynth-super/images/onss_1.0_lite.img">16GB image</a>.</p>
+
+<p>The easiest way to create the SD card is to use GUI software like <a href="https://etcher.io/">Etcher</a>, Win32DiskImager, or the <a href="https://www.sdcard.org/downloads/formatter_4/">SD Card Association’s</a> formatter to burn the example image to a card.</p>
+
+<p>Alternatively, you can use the <code class="highlighter-rouge">dd</code> command natively on *NIX systems:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo dd if=&lt;IMAGE NAME&gt; of=&lt;DISK NAME&gt;
+</code></pre></div></div>
+
+<p>Connect a keyboard and screen to the Raspberry Pi, insert the SD card, and plug a USB power cable into the socket on the Open NSynth Super mainboard. You should see the Pi booting up on the connected display; when you receive a prompt, you can login with the default username and password: pi / raspberry. <strong>Note that the device might run a file system check when you first boot up from the new card – this will take about 5 minutes depending on the size of the disk.</strong></p>
+
+<h3 id="4-install-the-firmware">4. Install the firmware</h3>
+
+<p>The firmware will need to be loaded to the microcontroller on your Open NSynth Super mainboard. This allows the software application running on the Raspberry Pi to interact with the controls.</p>
+
+<p>Because the file system is locked for robustness, you will need to remount the disk as read/write by running the following command on your Raspberry Pi:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo mount -o remount,rw /
+</code></pre></div></div>
+
+<p>Next, navigate to the firmware directory and run the install command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd /home/pi/open-nsynth-super-master/firmware/src
+$ make install
+</code></pre></div></div>
+
+<p>This command will build and install the firmware to the microcontroller. You will receive a message on screen confirming the operation has been successful:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>** Programming Started **
+auto erase enabled
+Info : device id = 0x10006444
+Info : flash size = 32kbytes
+wrote 12288 bytes from file ../bin/main.elf in 0.607889s (19.740 KiB/s)
+** Programming Finished **
+** Verify Started **
+verified 11788 bytes in 0.050784s (226.680 KiB/s)
+** Verified OK **
+** Resetting Target **
+adapter speed: 1001 kHz
+shutdown command invoked
+</code></pre></div></div>
+
+<p>More detailed information about the firmware can be found in the <a href="/firmware">firmware readme</a> file. When the firmware installation is complete, you can power down the system using the following command, and move to the next step:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo poweroff
+</code></pre></div></div>
+
+<h3 id="5-verify-the-installation">5. Verify the installation</h3>
+
+<p>Before assembling the shell and ‘finishing’ the instrument, it’s important to check that everything is functioning correctly. To do this, plug in a MIDI device (like a keyboard), a pair of headphones or speakers, and power on the instrument.</p>
+
+<p>After a few seconds, you should see the grid interface appear on the OLED screen. Move your finger around the touch interface to test its responsiveness. Next, adjust the six controls at the base of the unit; the UI should update according to the control that you are adjusting. Finally, test the four instrument selection encoders, which will scroll through an instrument list on the screen.</p>
+
+<p>To test the audio, ensure your MIDI device is broadcasting on channel 1 (the default channel), and send some notes to the device. You should hear audio coming from the speakers or headphones (if you don’t hear anything, make sure the device audio is turned up, and that the envelope and position controls aren’t cutting the audible part of the waveform).</p>
+
+<p>Because the standard image is preconfigured, you can use it to test that your Open NSynth Super mainboard is functioning correctly. If all features are up and running, you can move on to final assembly.</p>
+
+<h3 id="6-assemble-the-shell">6. Assemble the shell</h3>
+
+<p>Now that you have a fully functioning instrument, you can finally build it into its shell. Power the unit down, remove all connections (e.g. screen, keyboard, MIDI, power), and follow the instructions found <a href="/case">here</a>.</p>
+
+<p><img src="images/ons_main_case_build.gif" alt="Open NSynth Super case" /></p>
+
+<h3 id="7-play-with-open-nsynth-super">7. Play with Open NSynth Super</h3>
+
+<p>With the case assembled, firmware installed, and the device tested, you’re ready to go and make music with your Open NSynth Super. There are detailed readmes in this repository for the software application, case, PCB and audio creation pipeline if you want to go into more detail, or start hacking the device.</p>
+
+<h1 id="audio-creation-overview">Audio creation overview</h1>
+
+<p>Sounds for Open NSynth Super are created using the neural synthesis technique implemented by Google Brain’s <a href="https://magenta.tensorflow.org/">Magenta</a> team as part of their NSynth project. You can read more about Magenta and NSynth on their <a href="https://github.com/tensorflow/magenta/tree/master/magenta/models/nsynth">project page</a>.</p>
+
+<p>Because generating audio requires a great deal of processing power, this repository includes a set of scripts that you can run on a server which will take any audio recordings of your choice and convert them into a format compatible with the instrument. This audio pipeline is built on top of the NSynth implementation available through <a href="https://github.com/tensorflow/magenta/tree/master/magenta/models/nsynth">Magenta’s GitHub page</a>.</p>
+
+<p>The pipeline has the following stages:</p>
+
+<ol>
+  <li>Assemble input audio files and assign sounds to corners of the interface</li>
+  <li>Calculate the embeddings of the input sounds with the NSynth model</li>
+  <li>Interpolate between these to create a set of embeddings for newly generated sounds</li>
+  <li>Generate the audio</li>
+  <li>Remove crackles and other artifacts from the generated audio</li>
+  <li>Package and deploy the audio to the device</li>
+</ol>
+
+<p><strong>More detailed instructions on how to run the pipeline, including how to set up and provision a GPU-equipped Linux server for processing audio, are available <a href="/audio">here</a>.</strong></p>
+
+<hr />
+
+<h3 id="notes">Notes</h3>
+<p>This is a collaborative effort between Google Creative Lab and <a href="https://github.com/tensorflow/magenta">Magenta</a>, <a href="https://github.com/kylemcdonald">Kyle McDonald</a>, and our partners at <a href="https://github.com/dgym">RRD Labs</a>. This is not an official Google product.</p>
+
+<p>We encourage open sourcing projects as a way of learning from each other. Please respect our and other creators’ rights, including copyright and trademark rights when present when sharing these works and creating derivative work. If you want more info on Google’s policy, you can find it <a href="https://www.google.com/permissions/">here</a>. To contribute to the project, please refer to the <a href="CONTRIBUTING.md">contributing</a> document in this repository.</p>
+
+
+</div>
+</div>
+
+    <!-- The Contact Section -->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <h2 class="w3-wide w3-center">CONTACT</h2>
+  <p class="w3-opacity w3-center"><i>Like? Drop a note!</i></p>
+  <i class="fa fa-map-marker  " style="width:30px"></i> Xi'an, CA<br>
+  <i class="fa fa-phone" style="width:30px"></i> Phone: +86 18509298651<br>
+  <i class="fa fa-envelope" style="width:30px"> </i> Email: aousticsung@gmail.com<br>
+  <button class="w3-button w3-black w3-section w3-right" type="submit"><a href="mailto:acousticsung@gmail.com">MAIL</a></button>
+</div>
+<img src="/assets/img/footer.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <!--
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  -->
+  <p class="w3-medium">Powered by esunlon, jekyll and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+  </body>
+</html>
