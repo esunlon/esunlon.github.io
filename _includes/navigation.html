@@ -1,24 +1,29 @@
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" class="w3-bar-item w3-button w3-padding-large">{{ item.name }}</a>
-    {% endfor %}
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction_nav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+
+    <a href="/blog.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOG</a>
+    <a href="/music.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MUSIC</a>
+    <a href="/photo.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHOTO</a>
+    <a href="/code.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CODE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right">CONTACT</a>
   </div>
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  {% for item in site.data.navigation %}
-  <a href="{{ item.link }}" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">{{ item.name }}</a>
-  {% endfor %}
+  <a href="/blog.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BLOG</a>
+  <a href="/music.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MUSIC</a>
+  <a href="/photo.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PHOTO</a>
+  <a href="/code.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CODE</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
 </div>
 
 <script>
   // Used to toggle the menu on small screens when clicking on the menu button
-  function myFunction() {
+  function myFunction_nav() {
       var x = document.getElementById("navDemo");
       if (x.className.indexOf("w3-show") == -1) {
           x.className += " w3-show";

@@ -6,7 +6,7 @@ img_link : /assets/img/blog/opennsynth.jpg
 excerpt_separator: <!--more-->
 ---
 # Open NSynth Super
-
+(Example file)  
 Open NSynth Super is an experimental physical interface for NSynth, a machine learning algorithm developed by [Google Brain’s Magenta team](https://magenta.tensorflow.org/) to generate new, unique sounds that exist between different sounds. Open NSynth Super allows you to create and explore new sounds that it generates through a simple to use hardware interface that integrates easily into any musician’s production rig. To find out more, visit the [NSynth Super website](https://nsynthsuper.withgoogle.com).
 <!--more-->
 This repository contains all the instructions and files required to build an Open NSynth Super instrument from scratch, and you can use them to make your own version. Anyone can fork the code and schematics to remix the instrument in any way they wish.
