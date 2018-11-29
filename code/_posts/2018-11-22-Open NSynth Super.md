@@ -2,7 +2,7 @@
 layout: post
 author: esunlon
 date: "November 11, 2018"
-img_link : /assets/img/blog/opennsynth.jpg
+img_link : https://i.loli.net/2018/11/29/5bff436654bff.jpg
 excerpt_separator: <!--more-->
 ---
 # Open NSynth Super
