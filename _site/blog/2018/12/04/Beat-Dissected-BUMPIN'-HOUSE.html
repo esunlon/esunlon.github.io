@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Beat dissected：bumpin' house</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {font-family: "Lato", sans-serif}
+      .mySlides {display: none}
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction_nav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+
+    <a href="/blog.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BLOG</a>
+    <a href="/music.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MUSIC</a>
+    <a href="/photo.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PHOTO</a>
+    <a href="/code.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CODE</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right">CONTACT</a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="/blog.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BLOG</a>
+  <a href="/music.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MUSIC</a>
+  <a href="/photo.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PHOTO</a>
+  <a href="/code.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CODE</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+</div>
+
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction_nav() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+</script>
+
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+<div class="w3-container w3-content w3-padding-64" style="max-width:860px">
+    <h1>Beat dissected：bumpin' house</h1>
+    <p>
+      04 Dec 2018
+      
+      
+        - <a href="/authors/esunlon.html">esunlon</a>
+      
+    </p>
+
+    <p>如何使用707和909的声音制作Bumpin’ House。
+<!--more--></p>
+<blockquote>
+  <p>Beat Dissected是一个文章系列的名称，我将在这个系列中分析并结构一些常见的Beat模式，并向您展示如何在DAW中进行制作。如果图方便，您可以直接下载我录制好的Loop供您使用。</p>
+</blockquote>
+
+<p>Bumpin’ House 示例音频百度网盘链接：https://pan.baidu.com/s/1kPCWds2wMXVLWkByF-Zwig</p>
+
+<p>这是我们今天要制作的Beat：</p>
+
+<p>试听：https://picosong.com/wjNkx</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Spec</th>
+      <th>TEMPO</th>
+      <th>Swing</th>
+      <th>Sounds</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td><em>122-127 BPM</em></td>
+      <td><em>MASCHINE 15%</em></td>
+      <td><em>DRUM MACHINES - 707 AND&lt;/br&gt; 909</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="step-1">Step 1</h5>
+<p>选择707 Kick采样，707有大量的中频和高频，非常有现场感的音色有助于切入混音。</p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c06364e58f1b.jpg" alt="Step-1.1.jpg" class="w3-image" /></p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c0636471c225.jpg" alt="Step-1.2-856x535.jpg" class="w3-image" /></p>
+
+<p>我们将Kick加载到DAW中，编写一个4/4的简单Beat，并在第二个小节的末端用一个切分音技巧。使用音量包络，减少Sustain让鼓声更紧实，然后用Fabfilter Saturn，关闭低频处理处理并将Crossover设置在200kHz附近。在这样做的目的是，我们只在中频和高频添加“磁带“般温暖的饱和度，当然你用别的失真处理插件也能达到这种效果，自己试一下吧。</p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c06364d5bb78.jpg" alt="Step-1.3.jpg" class="w3-image" /></p>
+
+<p>然后我们加载909 OH 1并将它放在与707 KICK相同的位置上。我们再次使用音量包络来减少延音，这样的做法为底鼓增加了一些高频内容。然后编组处理，加载Soundtoys Decapitator，让音色更凶猛一点，然后用Fabfilter Pro-Q 2来衰减170Hz左右和16kHz及以上的中频。</p>
+
+<p>试听：https://picosong.com/wjNqi/</p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c063635bd7a5.jpg" alt="Step-1.4-856x279.jpg" class="w3-image" /></p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c063657708ee.jpg" alt="Step-1.5-856x906.jpg" class="w3-image" /></p>
+
+<h5 id="step-2">Step 2</h5>
+
+<p>从本教程顶部的下载文件中加载加载Snare 1到Live的Drum Rack。然后编写节奏，并在第二个小节结尾处使用切分技巧。继续添加Snare 2并在第二个小节的末尾放置一个切分音符（如下图）。</p>
+
+<p>试听：https://picosong.com/wjNkX</p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c063633d3210.jpg" alt="Step-2-856x299.jpg" class="w3-image" /></p>
+
+<h5 id="step-3">Step 3</h5>
+<p>对于Hi-hat，我们从CH 1开始，这是一个closed hi-hat 采样，将它放置在节拍的弱拍位置。跟前面一样，通过音量包络减少Sustain。</p>
+
+<p>然后添加OH 2，这是一个open hi-hat采样，将它放置在一些巧妙的切分位置。使用音量包络，增大Attack减弱一些瞬态，并将采样的音调调低3个半音。这样做的目的是让OH 2的声音更有辨识度。</p>
+
+<p>接下来，添加另一个closed hi-hat。从采样文件夹中取出CH 2并编写成16分音符的节奏模式，调整音符的力度，使它们具有更自然和人性化的感觉。我们还在其上增加了自动平移效果，让音色具有立体感。</p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c06363dcdb04.jpg" alt="Step-3.1-856x275.jpg" class="w3-image" /></p>
+
+<p>最后，我们添加Ride 1采样。将这些编组一起处理，使用Fabfilter Pro-Q 2来消除一些低频信号，减少Hi-hat和Ride对底鼓的影响，让声音更干净。</p>
+
+<p>试听：https://picosong.com/wjNkb</p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c063661ed384.jpg" alt="Step-3.2.jpg" class="w3-image" /></p>
+
+<h5 id="step-4">Step 4</h5>
+<p>现在加入Tom鼓。再次加载一个单独Drum Rack，并加载Tom1，这是一个较低的Tom鼓，在第一个小节的最后一个弱拍放置。然后我们加载Tom 2，这是一个中音的Tom鼓，将其放置在Tom1之前并使用切分节奏。</p>
+
+<p>然后我们将Soundtoy的Decapitator应用于Tom组并调高Drive。我们通过调整一些干信号的混合量并从效果中扫描低频和高频来控制最终的效果。</p>
+
+<p>试听：https://picosong.com/wjNkK</p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c0636237dbb1.jpg" alt="Step-4.1-856x278.jpg" class="w3-image" /></p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c06361c99e2a.jpg" alt="Step-4.2-856x435.jpg" class="w3-image" /></p>
+
+<h5 id="step-5">Step 5</h5>
+
+<p>最后一个阶段是总线处理。我们将所有三个组合并为一个，并在主组上加载Native Instruments Supercharger插件。</p>
+
+<p>打开Dirt选项并增加压缩控制。然后将Mix控件设置为中等，这样实现了平行压缩处理。</p>
+
+<p>试听：https://picosong.com/wjNkZ</p>
+
+<p><img src="https://i.loli.net/2018/12/04/5c063934d95b7.jpg" alt="Step-5.jpg" class="w3-image" /></p>
+
+
+</div>
+</div>
+
+    <!-- The Contact Section -->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+  <h2 class="w3-wide w3-center">CONTACT</h2>
+  <p class="w3-opacity w3-center"><i>Like? Drop a note!</i></p>
+  <i class="fa fa-map-marker  " style="width:30px"></i> Xi'an, CA<br>
+  <i class="fa fa-phone" style="width:30px"></i> Phone: +86 18509298651<br>
+  <i class="fa fa-envelope" style="width:30px"> </i> Email: acousticsung@gmail.com<br>
+  <button class="w3-button w3-black w3-section w3-right" type="submit"><a href="mailto:acousticsung@gmail.com">MAIL</a></button>
+</div>
+<img src="https://i.loli.net/2018/11/28/5bfe54716c663.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <!--
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  -->
+  <p class="w3-medium">Powered by esunlon, jekyll and <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+  </body>
+</html>

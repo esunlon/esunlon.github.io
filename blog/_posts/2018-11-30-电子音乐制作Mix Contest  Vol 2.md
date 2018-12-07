@@ -16,11 +16,11 @@ excerpt_separator: <!--more-->
 
 
 
-![t1](https://i.loli.net/2018/11/30/5c00ee2e3aa16.png)
+![t1](https://i.loli.net/2018/11/30/5c00ee2e3aa16.png){:class="w3-image"}
 
-![t2](https://i.loli.net/2018/11/30/5c00ee2c5343b.png)
+![t2](https://i.loli.net/2018/11/30/5c00ee2c5343b.png){:class="w3-image"}
 
-![t3](https://i.loli.net/2018/11/30/5c00ee329c273.png)
+![t3](https://i.loli.net/2018/11/30/5c00ee329c273.png){:class="w3-image"}
 
 所以本次提供采样的作者是**ESUNLON**，请于12月2日前将准备的采样发送到笔者邮箱：<u>562334830@qq.com</u>，或者直接提供网盘链接。
 
@@ -50,4 +50,4 @@ excerpt_separator: <!--more-->
 
 
 
-![o1](https://i.loli.net/2018/11/30/5c00ee64d5ea5.jpg)
+![o1](https://i.loli.net/2018/11/30/5c00ee64d5ea5.jpg){:class="w3-image"}
