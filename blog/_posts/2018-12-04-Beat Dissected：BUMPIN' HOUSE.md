@@ -13,7 +13,8 @@ Bumpin' House 示例音频百度网盘链接：https://pan.baidu.com/s/1kPCWds2w
 
 这是我们今天要制作的Beat：
 
-试听:<audio controls>
+试听:
+<audio controls>
   <source src="/assets/audio/Step-1.wav" type="audio/mp3">
 Your browser does not support the audio element.
 </audio>
