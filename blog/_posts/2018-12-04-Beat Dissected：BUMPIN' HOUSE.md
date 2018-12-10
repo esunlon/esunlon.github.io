@@ -13,7 +13,12 @@ Bumpin' House 示例音频百度网盘链接：https://pan.baidu.com/s/1kPCWds2w
 
 这是我们今天要制作的Beat：
 
-试听：https://picosong.com/wjNkx
+试听:
+
+<audio controls>
+  <source src="https://picosong.com/wjNkx" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
 
 | Spec | TEMPO         | Swing          | Sounds                             |
 | ---- | ------------- | -------------- | ---------------------------------- |

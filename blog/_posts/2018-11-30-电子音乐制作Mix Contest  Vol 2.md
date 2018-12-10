@@ -5,11 +5,6 @@ date: "November 30, 2018"
 img_link : https://i.loli.net/2018/11/30/5c00f6c92182a.jpg
 excerpt_separator: <!--more-->
 ---
-
-
-# 电子音乐制作Mix Contest  Vol 2
-
-
 欢迎大家踊跃参加！后续采样由大家打分最高作品的作者提供。
 <!--more-->
 先通知上次竞赛的打分情况，虽然每人只有三票，而且总分差距不是很大，感谢投票的朋友，谢谢你们的聆听：
