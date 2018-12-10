@@ -15,7 +15,7 @@ Bumpin' House 示例音频百度网盘链接：https://pan.baidu.com/s/1kPCWds2w
 
 试听:
 <audio controls>
-  <source src="/assets/audio/Step-1.wav" type="audio/mp3">
+  <source src="http://f.cangg.cn:81/data/2018121017061235764594.mp3" type="audio/mp3">
 Your browser does not support the audio element.
 </audio>
 
