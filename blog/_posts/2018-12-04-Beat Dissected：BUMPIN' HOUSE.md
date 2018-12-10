@@ -14,10 +14,7 @@ Bumpin' House 示例音频百度网盘链接：https://pan.baidu.com/s/1kPCWds2w
 这是我们今天要制作的Beat：
 
 试听:
-<audio controls>
-  <source src="http://f.cangg.cn:81/data/2018121017061235764594.mp3" type="audio/mp3">
-Your browser does not support the audio element.
-</audio>
+<audio src="https://f.cangg.cn:82/data/201812101718272776.mp3" controls="controls">  </audio>
 
 | Spec | TEMPO         | Swing          | Sounds                             |
 | ---- | ------------- | -------------- | ---------------------------------- |
@@ -37,7 +34,8 @@ Your browser does not support the audio element.
 
 然后我们加载909 OH 1并将它放在与707 KICK相同的位置上。我们再次使用音量包络来减少延音，这样的做法为底鼓增加了一些高频内容。然后编组处理，加载Soundtoys Decapitator，让音色更凶猛一点，然后用Fabfilter Pro-Q 2来衰减170Hz左右和16kHz及以上的中频。
 
-试听：https://picosong.com/wjNqi/
+试听：
+<audio src="http://f.cangg.cn:81/data/2018121017061235764594.mp3" controls="controls">  </audio>
 
 ![Step-1.4-856x279.jpg](https://i.loli.net/2018/12/04/5c063635bd7a5.jpg){:class="w3-image"}
 
@@ -47,7 +45,8 @@ Your browser does not support the audio element.
 
 从本教程顶部的下载文件中加载加载Snare 1到Live的Drum Rack。然后编写节奏，并在第二个小节结尾处使用切分技巧。继续添加Snare 2并在第二个小节的末尾放置一个切分音符（如下图）。
 
-试听：https://picosong.com/wjNkX
+试听：
+<audio src="https://f.cangg.cn:82/data/201812101718272776.mp3" controls="controls">  </audio>
 
 ![Step-2-856x299.jpg](https://i.loli.net/2018/12/04/5c063633d3210.jpg){:class="w3-image"}
 
@@ -62,7 +61,8 @@ Your browser does not support the audio element.
 
 最后，我们添加Ride 1采样。将这些编组一起处理，使用Fabfilter Pro-Q 2来消除一些低频信号，减少Hi-hat和Ride对底鼓的影响，让声音更干净。
 
-试听：https://picosong.com/wjNkb
+试听：
+<audio src="https://f.cangg.cn:82/data/201812101720061075.mp3" controls="controls">  </audio>
 
 ![Step-3.2.jpg](https://i.loli.net/2018/12/04/5c063661ed384.jpg){:class="w3-image"}
 
@@ -71,7 +71,8 @@ Your browser does not support the audio element.
 
 然后我们将Soundtoy的Decapitator应用于Tom组并调高Drive。我们通过调整一些干信号的混合量并从效果中扫描低频和高频来控制最终的效果。
 
-试听：https://picosong.com/wjNkK
+试听：
+<audio src="https://f.cangg.cn:82/data/201812101720061075.mp3" controls="controls">  </audio>
 
 ![Step-4.1-856x278.jpg](https://i.loli.net/2018/12/04/5c0636237dbb1.jpg){:class="w3-image"}
 
@@ -83,6 +84,7 @@ Your browser does not support the audio element.
 
 打开Dirt选项并增加压缩控制。然后将Mix控件设置为中等，这样实现了平行压缩处理。
 
-试听：https://picosong.com/wjNkZ
+试听：
+<audio src="https://f.cangg.cn:82/data/201812101720061075.mp3" controls="controls">  </audio>
 
 ![Step-5.jpg](https://i.loli.net/2018/12/04/5c063934d95b7.jpg){:class="w3-image"}
