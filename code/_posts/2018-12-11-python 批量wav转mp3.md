@@ -16,7 +16,7 @@ excerpt_separator: <!--more-->
 
 #### 示例程序
 
-```python
+```
 import os
 import glob
 from pydub import AudioSegment
@@ -37,7 +37,7 @@ for extension in extension_list:
 
 #### 第一次尝试
 
-```python
+```
 
 import os
 import glob
