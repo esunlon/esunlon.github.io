@@ -17,7 +17,7 @@ Ethereal Techno 示例音频百度网盘链接：[https://pan.baidu.com/s/1EhI8W
 
 <audio src="https://f.cangg.cn:82/data/201812121708481827.mp3" controls="controls">  </audio>
 
-![](https://i.loli.net/2018/12/12/5c10ab17821e6.png)
+![](https://i.loli.net/2018/12/12/5c10ab17821e6.png){:class="w3-image"}
 
 ##### 第1步
 
@@ -30,9 +30,9 @@ Ethereal Techno 示例音频百度网盘链接：[https://pan.baidu.com/s/1EhI8W
 <audio src="https://f.cangg.cn:82/data/201812121706466752.mp3" controls="controls">  </audio>
 
 
-![Step-1.1-660x184.jpg](https://i.loli.net/2018/12/12/5c10ab21ab736.jpg)
+![Step-1.1-660x184.jpg](https://i.loli.net/2018/12/12/5c10ab21ab736.jpg){:class="w3-image"}
 
-![Step-1.2-660x444.jpg](https://i.loli.net/2018/12/12/5c10ab4456f99.jpg)
+![Step-1.2-660x444.jpg](https://i.loli.net/2018/12/12/5c10ab4456f99.jpg){:class="w3-image"}
 
 
 ##### 第2步
@@ -48,11 +48,11 @@ Ethereal Techno 示例音频百度网盘链接：[https://pan.baidu.com/s/1EhI8W
 <audio src="https://f.cangg.cn:82/data/201812121710559337.mp3" controls="controls">  </audio>
 
 
-![Step-2.1-660x183.jpg](https://i.loli.net/2018/12/12/5c10ab1caa6f1.jpg)
+![Step-2.1-660x183.jpg](https://i.loli.net/2018/12/12/5c10ab1caa6f1.jpg){:class="w3-image"}
 
 
 
-![Step-2.2-660x516.jpg](https://i.loli.net/2018/12/12/5c10ab49768e4.jpg)
+![Step-2.2-660x516.jpg](https://i.loli.net/2018/12/12/5c10ab49768e4.jpg){:class="w3-image"}
 
 
 ##### 第3步
@@ -64,8 +64,8 @@ Ethereal Techno 示例音频百度网盘链接：[https://pan.baidu.com/s/1EhI8W
 试听：
 
 <audio src="http://f.cangg.cn:81/data/2018121215555629273772.mp3" controls="controls">  </audio>
-![Step-3.1.jpg](https://i.loli.net/2018/12/12/5c10ab655663c.jpg)
-![Step-3.2-660x478.jpg](https://i.loli.net/2018/12/12/5c10ab37e0697.jpg)
+![Step-3.1.jpg](https://i.loli.net/2018/12/12/5c10ab655663c.jpg){:class="w3-image"}
+![Step-3.2-660x478.jpg](https://i.loli.net/2018/12/12/5c10ab37e0697.jpg){:class="w3-image"}
 
 ##### 第4步
 
@@ -81,11 +81,11 @@ Ethereal Techno 示例音频百度网盘链接：[https://pan.baidu.com/s/1EhI8W
 
 <audio src="http://f.cangg.cn:81/data/2018121216392049434768.mp3" controls="controls">  </audio>
 
-![Step-4.1.jpg](https://i.loli.net/2018/12/12/5c10ab277d4b5.jpg)
-![Step-4.2-660x319.jpg](https://i.loli.net/2018/12/12/5c10ab4ab5916.jpg)
-![Step-4.3.jpg](https://i.loli.net/2018/12/12/5c10ab4157f5a.jpg)
-![Step-4.4.jpg](https://i.loli.net/2018/12/12/5c10ab6353e5b.jpg)
-![Step-4.5-660x149.jpg](https://i.loli.net/2018/12/12/5c10ab553bca7.jpg)
+![Step-4.1.jpg](https://i.loli.net/2018/12/12/5c10ab277d4b5.jpg){:class="w3-image"}
+![Step-4.2-660x319.jpg](https://i.loli.net/2018/12/12/5c10ab4ab5916.jpg){:class="w3-image"}
+![Step-4.3.jpg](https://i.loli.net/2018/12/12/5c10ab4157f5a.jpg){:class="w3-image"}
+![Step-4.4.jpg](https://i.loli.net/2018/12/12/5c10ab6353e5b.jpg){:class="w3-image"}
+![Step-4.5-660x149.jpg](https://i.loli.net/2018/12/12/5c10ab553bca7.jpg){:class="w3-image"}
 
 ##### 第5步
 
@@ -98,8 +98,8 @@ Ethereal Techno 示例音频百度网盘链接：[https://pan.baidu.com/s/1EhI8W
 试听：
 
 <audio src="http://f.cangg.cn:81/data/2018121216434247535114.mp3" controls="controls">  </audio>
-![Step-5.1-660x106.jpg](https://i.loli.net/2018/12/12/5c10ab51943c2.jpg)
-![Step-5.2.jpg](https://i.loli.net/2018/12/12/5c10ab60a104e.jpg)
+![Step-5.1-660x106.jpg](https://i.loli.net/2018/12/12/5c10ab51943c2.jpg){:class="w3-image"}
+![Step-5.2.jpg](https://i.loli.net/2018/12/12/5c10ab60a104e.jpg){:class="w3-image"}
 
 
 ##### 第6步
@@ -113,5 +113,5 @@ Ethereal Techno 示例音频百度网盘链接：[https://pan.baidu.com/s/1EhI8W
 试听：
 
 <audio src="http://f.cangg.cn:81/data/2018121217005478127498.mp3" controls="controls">  </audio>
-![Step-6.1-660x281.jpg](https://i.loli.net/2018/12/12/5c10ab570bb47.jpg)
-![Step-6.2-660x125.jpg](https://i.loli.net/2018/12/12/5c10ab519221f.jpg)
+![Step-6.1-660x281.jpg](https://i.loli.net/2018/12/12/5c10ab570bb47.jpg){:class="w3-image"}
+![Step-6.2-660x125.jpg](https://i.loli.net/2018/12/12/5c10ab519221f.jpg){:class="w3-image"}
