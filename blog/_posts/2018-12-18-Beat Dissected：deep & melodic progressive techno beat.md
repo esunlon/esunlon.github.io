@@ -6,6 +6,7 @@ img_link : https://i.loli.net/2018/11/30/5c00f6c876eed.jpg
 excerpt_separator: <!--more-->
 ---
 在今天的Beat Dissected系列中，我们将学习制作一个deep & melodic progressive techno beat.
+<!--more-->
 
 *Beat Dissected是一个文章系列的名称，我将在这个系列中分析并结构一些常见的Beat模式，并向您展示如何在DAW中进行制作。如果图方便，您可以直接下载我录制好的Loop供您使用。*
 
