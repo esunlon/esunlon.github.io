@@ -2,9 +2,12 @@
 layout: post
 author: esunlon
 date: "December 21, 2018"
-img_link : https://i.loli.net/2018/12/11/5c0f87bae2513.png
+img_link : https://f.cangg.cn:82/data/201812211036456931.jpg
 excerpt_separator: <!--more-->
 ---
+一个简单的Web Audio API实现的合成器。
+<!--more-->
+
 <div class='controls'>
     <button class='start'>Start</button>
     <button class='stop' disabled>Stop</button>
