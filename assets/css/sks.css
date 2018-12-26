@@ -82,7 +82,7 @@
 .right {
   width: 50%;
   position: absolute;
-  right: 0;
+  top: 80px;
   display: table-cell;
   vertical-align: middle;
 }
