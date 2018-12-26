@@ -6,9 +6,8 @@ img_link : https://f.cangg.cn:82/data/201812211036456931.jpg
 excerpt_separator: <!--more-->
 ---
 根据MDN教程，另一个简单的Web Audio API实现的合成器，
-
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!--more-->
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
