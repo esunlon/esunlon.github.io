@@ -211,3 +211,12 @@ function noteReleased(event) {
 function changeVolume(event) {
   masterGainNode.gain.value = volumeControl.value
 }
+
+window.addEventListener('touchstart', function(){
+  //create empty buffer
+  var buffer = audioContext.createBuffer(1, 1, 22050);
+  var source = audioContext.createBufferSource();
+  source.buffer = buffer;
+  source.connect(audioContext.destination);
+  source.start(0);
+}, false);
