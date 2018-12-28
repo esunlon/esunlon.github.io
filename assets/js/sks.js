@@ -9,8 +9,7 @@ let customWaveform = null;
 let sineTerms = null;
 let cosineTerms = null;
 
-function webAudioTouchUnlock (someContext)
-{
+function webAudioTouchUnlock (audioContext) {
     return new Promise(function (resolve, reject)
     {
         if (context.state === 'suspended' && 'ontouchstart' in window)
@@ -183,7 +182,6 @@ function setup() {
   for (i=0; i<9; i++) {
       oscList[i] = [];
   }
-  webAudioTouchUnlock(audioContext);
 }
 
 setup();
