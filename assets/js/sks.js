@@ -8,6 +8,38 @@ let noteFreq = null;
 let customWaveform = null;
 let sineTerms = null;
 let cosineTerms = null;
+
+function webAudioTouchUnlock (someContext)
+{
+    return new Promise(function (resolve, reject)
+    {
+        if (context.state === 'suspended' && 'ontouchstart' in window)
+        {
+            var unlock = function()
+            {
+                context.resume().then(function()
+                {
+                    document.body.removeEventListener('touchstart', unlock);
+                    document.body.removeEventListener('touchend', unlock);
+
+                    resolve(true);
+                },
+                function (reason)
+                {
+                    reject(reason);
+                });
+            };
+
+            document.body.addEventListener('touchstart', unlock, false);
+            document.body.addEventListener('touchend', unlock, false);
+        }
+        else
+        {
+            resolve(false);
+        }
+    });
+}
+
 function createNoteTable() {
   let noteFreq = [];
   for (let i=0; i< 9; i++) {
@@ -151,9 +183,13 @@ function setup() {
   for (i=0; i<9; i++) {
       oscList[i] = [];
   }
+  webAudioTouchUnlock(audioContext);
 }
 
-setup();function createKey(note, octave, freq) {
+setup();
+
+
+function createKey(note, octave, freq) {
   let keyElement = document.createElement("div");
   let labelElement = document.createElement("div");
 
@@ -211,12 +247,3 @@ function noteReleased(event) {
 function changeVolume(event) {
   masterGainNode.gain.value = volumeControl.value
 }
-
-window.addEventListener('touchstart', function(){
-  //create empty buffer
-  var buffer = audioContext.createBuffer(1, 1, 22050);
-  var source = audioContext.createBufferSource();
-  source.buffer = buffer;
-  source.connect(audioContext.destination);
-  source.start(0);
-}, false);
