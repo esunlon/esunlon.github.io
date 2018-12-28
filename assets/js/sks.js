@@ -9,35 +9,7 @@ let customWaveform = null;
 let sineTerms = null;
 let cosineTerms = null;
 
-function webAudioTouchUnlock (audioContext) {
-    return new Promise(function (resolve, reject)
-    {
-        if (context.state === 'suspended' && 'ontouchstart' in window)
-        {
-            var unlock = function()
-            {
-                context.resume().then(function()
-                {
-                    document.body.removeEventListener('touchstart', unlock);
-                    document.body.removeEventListener('touchend', unlock);
 
-                    resolve(true);
-                },
-                function (reason)
-                {
-                    reject(reason);
-                });
-            };
-
-            document.body.addEventListener('touchstart', unlock, false);
-            document.body.addEventListener('touchend', unlock, false);
-        }
-        else
-        {
-            resolve(false);
-        }
-    });
-}
 
 function createNoteTable() {
   let noteFreq = [];
@@ -245,3 +217,13 @@ function noteReleased(event) {
 function changeVolume(event) {
   masterGainNode.gain.value = volumeControl.value
 }
+
+/* ios enable sound output */
+window.addEventListener('touchstart', function(){
+		//create empty buffer
+		var buffer = audioContext.createBuffer(1, 1, 22050);
+		var source = audioContext.createBufferSource();
+		source.buffer = buffer;
+		source.connect(masterGainNode);
+		source.start(0);
+	}, false);
