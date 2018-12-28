@@ -6,7 +6,7 @@ img_link : https://i.loli.net/2018/12/20/5c1b489238337.jpg
 excerpt_separator: <!--more-->
 ---
 我们今天的Synth Secrets将会讨论如何在Ableon中进行声音设计，然后制作一种具有迷幻色彩的techno lead，和一种温暖，模拟味儿十足的Pad音色。最后设计到讨论如何用一些插件如Sonnox的VoxDoubler来给音色带来额外的深度和立体声效果。
-
+<!--more-->
 *Synth Secrets系列是一些列教程，我们通过试着使用Massive, Sylenth和Dive等流行的软件合成器来合成一些经典的，现代的合成器声音。*
 
 ![ableton-live-10-standard-download-e1519469302178-1400x479.jpg](https://i.loli.net/2018/12/28/5c25d253e2a9a.jpg){:class="w3-image"}
