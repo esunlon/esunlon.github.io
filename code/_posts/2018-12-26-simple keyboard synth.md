@@ -7,4 +7,4 @@ excerpt_separator: <!--more-->
 ---
 根据MDN教程，另一个简单的Web Audio API实现的合成器，
 <!--more-->
-<iframe src="/single_page/simple_keyboard_synth.html" frameborder="0" scrolling="no" style="overflow:hidden;max-width:860px"></iframe>
+<iframe src="/single_page/simple_keyboard_synth.html" frameborder="0" scrolling="no" style="overflow:hidden; width:828px"></iframe>
