@@ -6,6 +6,7 @@ img_link : https://i.loli.net/2018/11/30/5c00f6c876eed.jpg
 excerpt_separator: <!--more-->
 ---
 今天我们来学习制作一段Breakbeat Techno：
+<!--more-->
 <audio src="http://f.cangg.cn:81/data/201901717051560099713.mp3" controls="controls">  </audio>
 
 ##### Step 1
