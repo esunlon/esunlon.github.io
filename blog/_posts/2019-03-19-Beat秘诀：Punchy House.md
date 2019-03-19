@@ -11,6 +11,8 @@ excerpt_separator: <!--more-->
 
 *Beat Dissected是一个文章系列的名称，我将在这个系列中分析并结构一些常见的Beat模式，并向您展示如何在DAW中进行制作。如果图方便，您可以直接下载我录制好的Loop供您使用。*
 
+采样链接地址：https://pan.baidu.com/s/1fOCgwNBp_4WXOw6bmroNyg
+
 这是我们今天要制作的Beat试听：
 
 试听：
