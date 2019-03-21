@@ -64,7 +64,7 @@ Ab / Bb：Ab  -  C  -  Eb（Bass是Bb）
 
 *Cm7-Gm7-Fm7-Ab / Bb*
 
-![Chorus.png](https://i.loli.net/2019/03/21/5c934291ec4e8.png)
+![Chorus.png](https://i.loli.net/2019/03/21/5c934291ec4e8.png){:class="w3-image"}
 
 试听：
 <audio src="/assets/img/blog/20190321/Freeze Ne.wav" controls="controls">  </audio>
