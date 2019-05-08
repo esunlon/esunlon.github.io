@@ -7,6 +7,7 @@ excerpt_separator: <!--more-->
 ---
 
 本次Beat秘诀，我们来制作一段原始，粗糙的ghetto house。
+<!--more-->
 
 ![WeChat Screenshot_20190508151637.png](https://i.loli.net/2019/05/08/5cd28cd75d77c.png){:class="w3-image"}
 
