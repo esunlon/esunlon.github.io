@@ -28,8 +28,7 @@ excerpt_separator: <!--more-->
 由于采样本身的音色就很饱满和结实，我这里没有用任何效果器处理：
 
 试听：
-<audio src="http://shaoqisama.oss-cn-beijing.aliyuncs.com/blog20190527/0002%209-Audio.wav?Expires=1558946234&OSSAccessKeyId=TMP.AgH7OgSolQEjfisuHrO_zD0-33s-E7F11txTdKha1t6EjlURwXdDRABYFaa-MC4CFQDF1_aylk3dpG9aljMGkbnZlnriAgIVAJG95mQyIzqB4SI8ZnMBmOwNW23v&Signature=DHez6m%2B6m%2BFEMQ%2BAa986xYoeFjY%3D
-" controls="controls">  </audio>
+<audio src="http://shaoqisama.oss-cn-beijing.aliyuncs.com/blog20190527/0002%209-Audio.wav" controls="controls">  </audio>
 
 ### Ride & Percussions
 
@@ -50,7 +49,7 @@ excerpt_separator: <!--more-->
 这些元素分别用EQ低切掉了超低频。
 
 试听：
-<audio src="http://shaoqisama.oss-cn-beijing.aliyuncs.com/blog20190527/0004%209-Audio-1.wav?Expires=1558946234&OSSAccessKeyId=TMP.AgH7OgSolQEjfisuHrO_zD0-33s-E7F11txTdKha1t6EjlURwXdDRABYFaa-MC4CFQDF1_aylk3dpG9aljMGkbnZlnriAgIVAJG95mQyIzqB4SI8ZnMBmOwNW23v&Signature=Z5GnQBfUSAUuWVIQwzw9N8nZJF4%3D
+<audio src="http://shaoqisama.oss-cn-beijing.aliyuncs.com/blog20190527/0004%209-Audio-1.wav
 " controls="controls">  </audio>
 
 
@@ -65,7 +64,7 @@ excerpt_separator: <!--more-->
 ![3-2.png](https://i.loli.net/2019/05/27/5ceb9246b8a5226225.png){:class="w3-image"}
 
 试听：
-<audio src="http://shaoqisama.oss-cn-beijing.aliyuncs.com/blog20190527/0006%209-Audio.wav?Expires=1558946234&OSSAccessKeyId=TMP.AgH7OgSolQEjfisuHrO_zD0-33s-E7F11txTdKha1t6EjlURwXdDRABYFaa-MC4CFQDF1_aylk3dpG9aljMGkbnZlnriAgIVAJG95mQyIzqB4SI8ZnMBmOwNW23v&Signature=U1BYl8KnkLOeM1q2qSMLiwnAzX8%3D
+<audio src="http://shaoqisama.oss-cn-beijing.aliyuncs.com/blog20190527/0006%209-Audio.wav
 " controls="controls">  </audio>
 
 
@@ -82,7 +81,7 @@ Bass的音符跟着底鼓一起，主要围绕着D#来写作，中间加入了�
 ![4-2.png](https://i.loli.net/2019/05/27/5ceb9246bc45480283.png){:class="w3-image"}
 
 试听：
-<audio src="http://shaoqisama.oss-cn-beijing.aliyuncs.com/blog20190527/0007%209-Audio.wav?Expires=1558946234&OSSAccessKeyId=TMP.AgH7OgSolQEjfisuHrO_zD0-33s-E7F11txTdKha1t6EjlURwXdDRABYFaa-MC4CFQDF1_aylk3dpG9aljMGkbnZlnriAgIVAJG95mQyIzqB4SI8ZnMBmOwNW23v&Signature=pVpq9kNl3IQmISDw6%2BdAGNaEnZA%3D
+<audio src="http://shaoqisama.oss-cn-beijing.aliyuncs.com/blog20190527/0007%209-Audio.wav
 " controls="controls">  </audio>
 
 ### Fx & Other
@@ -100,5 +99,5 @@ Bass的音符跟着底鼓一起，主要围绕着D#来写作，中间加入了�
 工程文件链接：http://23.105.205.48:8000/f/86ddfe6843444027add0/?dl=1
 
 试听：
-<audio src="http://shaoqisama.oss-cn-beijing.aliyuncs.com/blog20190527/0008%209-Audio.wav?Expires=1558946234&OSSAccessKeyId=TMP.AgH7OgSolQEjfisuHrO_zD0-33s-E7F11txTdKha1t6EjlURwXdDRABYFaa-MC4CFQDF1_aylk3dpG9aljMGkbnZlnriAgIVAJG95mQyIzqB4SI8ZnMBmOwNW23v&Signature=qcrmR4OZFfTo1gjpZtYW33Pabco%3D
+<audio src="http://shaoqisama.oss-cn-beijing.aliyuncs.com/blog20190527/0008%209-Audio.wav
 " controls="controls">  </audio>
