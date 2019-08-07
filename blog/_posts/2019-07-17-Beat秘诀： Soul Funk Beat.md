@@ -1,3 +1,11 @@
+---
+layout: post
+author: esunlon
+date: "July 17, 2019"
+img_link : https://i.loli.net/2018/11/30/5c00f6c876eed.jpg
+excerpt_separator: <!--more-->
+---
+
 Folks，好久不见！今天我们来介绍如何制作一段Funk风格的Beat，：
 <!--more-->
 
